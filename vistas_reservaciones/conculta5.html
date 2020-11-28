@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/vistas_vehiculos.css" />
+  <link rel="stylesheet" href="../css/all.min.css">
+  <link rel="stylesheet" href="../estilo.css">
+  <title>Yireth Car-Wash</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light badge-light bg-white">
+      <a href="../index.html"><img src="../img/Logo.png" alt="" /></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="./index.html">HOME<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Template/Especialidades.html">ESPECIALIDADES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Template/Consultas.html">CONSULTAS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Template/quienes somos.html">QUIENES SOMOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Template/Contacto.html">CONTACTO</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  
+  
+    <!-- Jumbotron -->
+    <div class="card1 card-image">
+      <div class="text-white text-center rgba-stylish-strong py-5 px-4">
+        <div class="py-5">
+  
+          <!-- Content -->
+          <h5 class="h1 orange-text "><i class="fas icon-book"></i> Reservaciones</h5>
+          <h6 class="mb-4 pb-2 px-md-5 mx-md-5 ">A la Mejor Tasa que Podria decear </h6>
+  
+        </div>
+  
+      </div>
+    </div>
+   
+
+           <!--Media Imagen-->
+    <h2 class="text h1-responsive font-weight-bold text-center my-5 mr-7">
+      Información
+    </h2>
+    <!--Panel-->
+    <div class="cardo container-fluid ">
+      <div class="medio d-block d-md-flex">
+        <img
+          class="d-flex avatar-2 mb-md-0 mb-3 mx-auto col-12 col-sm-6 col-md-7 "
+          src="../img/cali.jpg"
+          alt="Generic placeholder image"
+        />
+        <div class="media-body  text-md-left ml-md-3 container ">
+          <h4 class="card-title text-center mt-3 m-2 ">Cali torres</h4>
+
+          <hr class="mb-3 btn-info">
+          <!--Text-->
+          <p class="card-text">Descripcion</p>
+          <br>
+          <br>
+          <div class="row row-cols-1 row-cols-md-2 m-6">
+          
+            <p class="card-text">
+              <a class="fas fa-door-open m-2 "> 3 Doctorados en Cirujia de huesos en Hardbar</a>
+              <p>
+          
+                <a class="fas fa-user m-2"> actualmente vive en new york</a>
+              </p>
+              <p>
+                <a class="fas  fa-transgender-alt m-2"> Actualmente comprometida </a>
+              </p>
+              <p>
+                <a class=" fas fa-briefcase m-2"> con 26 años es uno de los mejores neurocirujanos en el pais nacional como internacional</a>
+              </p>
+              <p>
+                <a class="fas fa-wind m-2">      Es hora de Salvar vidas  </a>
+              </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Media Imagen-->
+  
+    <!--Formulario-->
+    <div class="container ">
+      <section class="mb-4">
+  
+        <!--Section heading-->
+        <h2 class="h1-responsive font-weight-bold text-center my-4">¡Reserva YA!</h2>
+        <!--Section description-->
+        <p class="text-center w-responsive mx-auto mb-5">Has tu reservacion en linea ahora, llenando este
+          formulario
+        </p>
+  
+        <div class="container-fluid">
+          <section class="row justify-content-center">
+            <section class="col-12 col-sm-6 col-md-9">
+              <form  action="/php_reservaciones/conculta5.php"  method="POST" class="form-container">
+                <div class="form-row">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Nombre"  name="Nombre" required >
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Apellido" name="Apellido" required>
+                  </div>
+                </div>
+                <br>
+                <div class="form-group">
+                  <input type="email" class="form-control" placeholder="Correo electrónico" id="exampleInputEmail1"
+                    aria-describedby="emailHelp" name="Mail" required >
+                  <small id="emailHelp" class="form-text text-muted">Nunca compartiremos su correo electrónico con nadie
+                    más.</small>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Cédula ó Pasaporte" name="Cedula" required >
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="NLicencia" name="Nlicencia" required>
+                </div>
+                <div class="form-row">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Teléfono" name="Telefono" required >
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Móvil" name="Movil" required>
+                  </div>
+                </div>
+                <form action="/php_reservaciones/Carro5.php" method="POST" class="form-group">
+                  <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Tipo de vehiculo</label>
+                 
+                  <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref" name="vehiculo">
+                    <option selected>Escoger...</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                    
+                  </select>
+                  
+                  <div class="form-row">
+                    <div class="col">
+                      <div class="md-form">
+                        <label for="input">Fecha de recogida</label>
+                        <input type="date" id="input" class="form-control" mdbInput name="fechar"
+                        required>
+                      </div>
+                        <div class="md-form">
+                          <label for="input">Elige la hora de recogida</label>
+                          <input
+                            type="time"
+                            id="input"
+                            class="form-control"
+                            value="13:00"
+                            mdbInput
+                            name="horar"
+                            required
+                          />
+                        </div>
+                    </div>
+                    <div class="col">
+                      <div class="md-form">
+                        <label for="input">Fecha de entrega</label>
+                        <input type="date" id="input" class="form-control" mdbInput name="fechae"
+                        required>
+                      </div>
+                        <label for="input">Elige la hora de entrega</label>
+                          <input
+                            type="time"
+                            id="input"
+                            class="form-control"
+                            value="13:00"
+                            mdbInput
+                            name="horae"
+                            required
+                          />
+                    </div>
+                  </div>
+                  <br>
+                  <div class="text-center">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                  </div>
+                </form>
+              </form>
+            </section>
+          </section>
+        </div>
+    </div>
+     
+  
+ <!-- Footer -->
+ <footer class="page-footer font-small teal pt-4">
+
+  <!-- Footer Text -->
+  <div class="container-fluid text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mt-md-0 mt-3">
+
+        <!-- Content -->
+        <div class="container100">
+        <img src="../img/Logo.png " alt="" class="croqui  "  >
+      </div>
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mb-md-0 mb-3">
+
+        <!-- Content -->
+        <h5 class="text-uppercase font-weight-bold">Medical San Paulo</h5>
+        <p class="letra">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio deserunt fuga perferendis modi earum
+          commodi aperiam temporibus quod nulla nesciunt aliquid debitis ullam omnis quos ipsam, aspernatur id
+          excepturi hic.</p>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Text -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https://mdbootstrap.com/"> Medical san paulo</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+  
+  
+<script src="../js/jquery-3.4.1.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+  </body>
+
+</html>

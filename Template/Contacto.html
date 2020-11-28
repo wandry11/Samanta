@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/Contacto.css" />
+  <link rel="stylesheet" href="../css/all.min.css">
+  <link rel="stylesheet" href="../estilo.css">
+  <title>Medical san paulo</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light badge-light bg-whit">
+      <a href="../index.html"><img src="../img/Logo.png" alt="" /></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="./index.html">HOME<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Template/Especialidades.html">ESPECIALIDADES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Template/Consultas.html">CONSULTAS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Template/quienes somos.html">QUIENES SOMOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Template/Contacto.html">CONTACTO</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+
+  <!-- Jumbotron -->
+  <div class=" card card-image ">
+    <div class="text-white text-center rgba-stylish-strong py-5 px-4">
+      <div class="py-5">
+
+        <!-- Content -->
+        <h5 class="h1 orange-text"><i class="fas icon-book"></i> Contactanos</h5>
+        <h6 class="mb-4 pb-2 px-md-5 mx-md-5">Servicios de la mas alta calidad y factibles para el cliente </h6>
+
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Section: Contact v.1/Formulario -->
+  <section class="my-5 ">
+
+
+    <!-- Grid row -->
+    <div class="row ">
+
+      <!-- Grid column -->
+      <div class="col-lg-5 mb-lg-0 mb-4">  
+
+        <!-- Form with header -->
+        <div class="card">
+          <form action="/php/Enviar.php" method="POST" class="card-body">
+            <!-- Header -->
+            <div class="form-header blue accent-1">
+              <h3 class="mt-2"><i class="fas fa-envelope"></i> Contactanos:</h3>
+            </div>
+            <p class="dark-grey-text">¡Escribenos en Cualquier Momento!</p>
+            <!-- Body -->
+            <div class="md-form">
+              <i class="fas fa-user prefix grey-text"></i>
+              <input type="text" id="form-name" class="form-control " placeholder="Ingrese Su Nombre" name="Nombre" required >
+              <label for="form-name"></label>
+            </div>
+            <div class="md-form">
+              <i class="fas fa-envelope prefix grey-text"></i>
+              <input type="text" id="form-email" class="form-control" placeholder="Ingrese su Email" name="Email" required>
+              <label for="form-email"></label>
+            </div>
+            <div class="md-form">
+              <i class="fas fa-phone prefix grey-text"> </i>
+              <input type="tel" id="Telefono" class="form-control" placeholder="Ingrese su Numero de Telefono" name="Telefono" required  >
+              <label for="form-Subject "></label>
+            </div>
+            <div class="md-form">
+              <i class="fas fa-pencil-alt  prefix"></i>
+              <textarea id="form10" type="text" class="md-textarea form-control" id="Mensaje" name="Mensaje" rows="3"
+                placeholder="Escriba su Mensaje" required></textarea>
+              <label for="form10"></label>
+            </div>
+            <div class="text-center">
+              <button type="submit" id="Enviar" name="Enviar" class="btn ">Enviar</button>
+            </div>
+          </form>
+        </div>
+        <!-- Form with header -->
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-lg-7">
+
+        <!--Google map-->
+        <div id="map-container-section" class="z-depth-1-half map-container-section mb-4 " style="height: 400px">
+
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3785.2907115444236!2d-68.98514278614843!3d18.425105132325307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf552049a36707%3A0xd33db26b74f30013!2sM-23%2033%2C%20La%20Romana%2022000!5e0!3m2!1ses!2sdo!4v1576951786076!5m2!1ses!2sdo"
+            frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+        <!-- Buttons-->
+        <div class="row text-center">
+          <div class="col-md-4">
+            <a class="btn-floating blue accent-1">
+              <i class="fas fa-map-marker-alt"></i>
+            </a>
+            <p>La Romana</p>
+            <p class="mb-md-0">Republica Dominicana</p>
+          </div>
+          <div class="col-md-4">
+            <a class="btn-floating blue accent-1">
+              <i class="fa icon-phone"></i>
+            </a>
+            <p>829-377-0910</p>
+            <p class="mb-md-0"> Lun - Dom, 8:00 p.m-6:00 p.m</p>
+          </div>
+          <div class="col-md-4">
+            <a href=" mailto: Yirethrentcar@gmail.com " target="_blank" class="btn-floating blue accent-1">
+              <i class="fas icon-mail"></i>
+            </a>
+            <p>Medical San Paulo</p>
+            <p class="mb-0 ">info@sanpaulo.com</p>
+          </div>
+        </div>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </section>
+  <!-- Section: Contact v.1 -->
+
+
+  
+
+   <!-- Footer -->
+<footer class="page-footer font-small teal pt-4">
+
+  <!-- Footer Text -->
+  <div class="container-fluid text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mt-md-0 mt-3">
+
+        <!-- Content -->
+        <div class="container100">
+        <img src="../img/Logo.png " alt="" class="croqui  "  >
+      </div>
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mb-md-0 mb-3">
+
+        <!-- Content -->
+        <h5 class="text-uppercase font-weight-bold">Medical San Paulo</h5>
+        <p class="letra">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio deserunt fuga perferendis modi earum
+          commodi aperiam temporibus quod nulla nesciunt aliquid debitis ullam omnis quos ipsam, aspernatur id
+          excepturi hic.</p>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Text -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https://mdbootstrap.com/"> Medical san paulo</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+
+
+
+  <script src="../js/jquery-3.4.1.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+
+
+
+</body>
+
+</html>
