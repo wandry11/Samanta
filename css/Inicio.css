@@ -1,0 +1,379 @@
+/*Logo*/
+
+.navbar img {
+  width: 70px;
+ 
+}
+.navbar{
+  background:linear-gradient(rgb(146, 206, 226),whitesmoke);
+}
+
+/*Principal image*/
+.main1 img{
+  height: 700px;
+}
+
+/*Menu Principal*/
+.navbar-nav {
+  margin: 0px 0px 0px 10px;
+  margin-top: 10px;
+}
+.dropdown-menu {
+  background: whitesmoke;
+}
+
+.navbar .form-control .Search:hover {
+  border-color: rgb(0, 170, 228);
+}
+
+.navbar input:hover .navbar a:active {
+  border-radius: 10px;
+  background:  rgb(0, 170, 228);
+  color: rgb(0, 170, 228);
+}
+.navbar-nav a:hover {
+  border-radius: 10px;
+  background: rgb(0, 170, 228);
+  margin: auto;
+  padding: auto;
+}
+
+.navbar .btn {
+  border-color: rgb(0, 170, 228);
+  color: black;
+}
+.navbar .btn:hover {
+  border-color: black;
+  background:rgb(0, 170, 228);
+}
+
+
+
+.patric {
+width: 100%;
+
+
+}
+
+.patric img {
+  width: 46%;
+  height: 25%;
+  border-radius: 150%;
+  margin-top: 20px;
+  
+}
+
+
+
+.meredith {
+  width: 100%;
+  height: 50%;
+  
+  }
+  
+  .meredith img {
+    width:92%;
+    border-radius: 150%;
+    margin-top: 20px;
+    
+  }
+
+  
+.slow {
+  width: 100%;
+  
+  
+  }
+  
+  .slow img {
+    width: 52%;
+    height: 25%;
+    border-radius: 150%;
+    margin-top: 20px;
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Texto con iconos img 1 */
+.teal-text  h6 strong {
+color: black;
+list-style: none;
+
+}
+ 
+ 
+.col-lg-7 .fa-heart {
+color:rgb(0, 170, 228);
+}
+
+/*Texto con iconos img 2*/
+.teal-text  h6 strong {
+  color: black;
+  list-style: none;
+  
+  }
+  .col-lg-7 .fa-plane {
+  color: darkslategray;
+  }
+
+  /*Texto con iconos img 3*/
+.brown-text  h6 strong {
+  color: black;
+  list-style: none;
+  
+  }
+  .col-lg-7 .fa-camera {
+    color:black;
+    }
+/*Texto de publicaciones 2*/
+
+  .indigo-text  h6 strong {
+    color: black;
+    list-style: none;
+    
+    }
+  .fa-graduation-cap {
+    color: black;
+  }
+ 
+    
+
+
+/*Texto de publicaciones 3*/
+  .cyan-text  h6 strong {
+    color: black;
+    list-style: none;
+    
+    }
+  .fa-fire {
+    color: black;
+  }
+
+ /*Texto de publicaciones hover*/
+ .col-lg-4 .btn {
+  border: 1px solid  rgb(0, 170, 228);
+  color: black;
+  }
+  
+  .col-lg-4 .btn  {
+    color: black;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  .col-lg-4 .btn:hover {
+    transition: 0.3 seg;
+    background:  rgb(0, 170, 228);
+    color: white;
+  }
+  .col-lg-4 .btn:hover a {
+    color: white;
+  }
+
+/*layout*/
+.col-lg-4 .view img {
+  height: 250px; 
+}
+
+.icon-users{
+
+  color: black;
+}
+
+.fa-book {
+color: black;
+
+}
+
+
+/*Bottoms*/
+.col-lg-7 .btn {
+border: 1px solid rgb(0, 170, 228);
+color: black;
+}
+
+.col-lg-7 .btn  {
+  color: black;
+  list-style: none;
+  text-decoration: none;
+}
+
+.col-lg-7 .btn:hover {
+  transition: 0.3 seg;
+  background: rgb(0, 170, 228);
+  color: white;
+}
+.col-lg-7 .btn:hover a {
+  color: white;
+}
+
+
+
+
+
+
+
+
+/*boton*/
+
+.Btn-bottom {
+  margin-top: 90px;
+  margin-bottom: 60px;
+}
+.Btn-bottom .btn {
+  border: 1px solid rgb(0, 170, 228);
+  color: black;
+}
+
+.Btn-bottom .btn a {
+  color: black;
+  list-style: none;
+  text-decoration: none;
+}
+
+.Btn-bottom .btn:hover {
+  transition: 0.3 seg;
+  background:  rgb(224, 241, 247);
+  color: white;
+}
+.Btn-bottom .btn:hover a {
+  color: white;
+}
+
+/*footer*/
+
+.text-uppercase strong {
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  margin-top: 140px;
+  padding: 2px 10px;
+  text-align: center;
+}
+
+.col-md-6 h6 {
+  color: white;
+}
+
+.col-md-4 .fa-home {
+  color: rgb(164, 228, 139);
+  font-size: 20px;
+}
+
+.col-md-4 .fa-envelope {
+  font-size: 20px;
+  color: white;
+}
+
+.col-md-4 .fa-phone {
+  font-size: 20px;
+  color: black;
+}
+
+.col-md-4 p a {
+  color: paleturquoise;
+  text-decoration: none;
+}
+
+.col-md-3 p a {
+  color: paleturquoise;
+  text-decoration: none;
+}
+
+.col-md-2 p a {
+  color: paleturquoise;
+  text-decoration: none;
+}
+
+.page-footer {
+  left: 2px;
+  position: static;
+  background: rgb(0, 0, 0, 0.6);
+  width: 100%;
+}
+
+
+.footer-copyright {
+  background: rgb(0, 170, 228);
+  color: black;
+  font-size: 15px bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-copyright a {
+  color: paleturquoise;
+}
+
+
+
+@media screen and (max-width: 850px){
+ .container1 {
+   position: relative;
+   right: 160px;
+ }
+ 
+}
+
+.croqui {
+  position: relative;
+  left: 37%;
+  width: 150px;
+  top: -10px;
+  align-items: center;
+}
+
+
+.text-uppercase , .letra {
+  color: wheat;
+}
